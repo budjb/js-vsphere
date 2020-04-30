@@ -1,0 +1,20 @@
+{
+  "name": "zamboni-vsphere",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css)\"",
+    "format-check": "prettier --check \"**/*.+(js|jsx|json|css)\""
+  },
+  "dependencies": {
+    "gremlin": "^3.4.6",
+    "node-localstorage": "^2.1.6",
+    "xmldom": "^0.3.0",
+    "xmlhttprequest-cookie": "^0.9.9"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
+}
